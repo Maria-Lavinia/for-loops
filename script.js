@@ -49,7 +49,7 @@ const products = [
 
 products.forEach((product) => {
     console.log(product)
-    console.log(products[0].quantityInStock)
+    console.log(product.quantityInStock * products.length)
     
 })
 
